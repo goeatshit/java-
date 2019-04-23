@@ -15,8 +15,7 @@ public class ProjectPractice {
 	    av = (math+english)/2;
         }catch(Exception w) {
         	System.out.println("数值资料错误");
-        	
-        	
+        		
         }
 		System.out.print("平均:"+av);
 		
