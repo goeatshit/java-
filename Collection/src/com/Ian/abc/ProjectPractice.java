@@ -21,9 +21,11 @@ public class ProjectPractice {
 			}
 		} catch (Exception w) {
 			System.out.println("数值资料错误");
+//			w.printStackTrace();
 
-		}
+		}   
 
 	}
 
 }
+
