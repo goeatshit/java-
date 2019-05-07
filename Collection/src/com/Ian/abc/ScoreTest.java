@@ -8,19 +8,17 @@ public class ScoreTest {
 		Scanner k = new Scanner(System.in);
 
 		try {
-			System.out.print("请输入数学成绩:");
-			Score math  =  new Score(k.nextLine());
-			System.out.print("请输入英文成绩:");
+			System.out.print("Input Math Score：");
+			Score math = new Score(k.nextLine());
+			System.out.print("Input EnglishScore：");
 			Score english = new Score(k.nextLine());
-			int av =((math.score+english.score)/2);
+			int av = ((math.score + english.score) / 2);
 			System.out.print(av);
-			
+
 		} catch (ScoreFormatException e) {
-			
+
 			System.out.print(e.getMessage());
 		}
-	
-	
 
 	}
 
