@@ -4,9 +4,9 @@ package com.Ian.abc;
 
 	public class FileReader {
 	    public static void main(String[] args) throws FileNotFoundException  {
-	        FileInputStream r = new FileInputStream("result.txt");
+	        FileInputStream r = new FileInputStream("cc.txt");
 	        try{
-	        r = new  FileInputStream("result.txt");
+	        r = new  FileInputStream("cc.txt");
 	        int n = r.read();
 	        while(n!=-1){
 	            System.out.print((char)n);
