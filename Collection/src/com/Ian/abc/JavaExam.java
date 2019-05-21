@@ -9,7 +9,7 @@ public class JavaExam {
 	    try {	      
 	            FileWriter fw = new FileWriter("cc.txt");
 	            PrintWriter o = new PrintWriter(fw);
-	            o.write("JAVA §B÷ˆ");
+	            o.write("JAVA ‰∏ÅÁøä");
 	            o.flush();
 	            o.close();     
 	        }catch(FileNotFoundException y){
@@ -22,3 +22,4 @@ public class JavaExam {
 	}
 
 }
+

@@ -1,0 +1,5 @@
+Jack 10
+Mary 4
+John 9
+Alex 20
+Robert 7
